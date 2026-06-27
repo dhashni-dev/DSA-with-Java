@@ -1,3 +1,9 @@
+/* 
+Problem : Number Of Good Pairs
+Approach 
+      Used nested loops to compare every pair
+      Counted pairs where nums[i]==nums[j] when j>i.
+*/
 class Solution {
     public int numIdenticalPairs(int[] nums) {
         int count = 0 ;
