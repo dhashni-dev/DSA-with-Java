@@ -1,3 +1,8 @@
+/*
+Problem : Valid Anagram
+Approach : Use an array of size 26 to track counts of each character. 
+Increase count for characters in s and decrease for t. If all values become 0, the strings are anagrams.
+*/
 class Solution {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
