@@ -1,3 +1,9 @@
+/*
+Problem : Find PIvot Index
+Approach :
+Used nested loops to calculate left sum and right sum for each index.
+Compared both sums and returned the pivot index.
+*/
 class Solution {
     public int pivotIndex(int[] nums) {
        for(int i = 0;i<nums.length;i++){
