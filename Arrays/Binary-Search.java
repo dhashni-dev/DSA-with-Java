@@ -1,3 +1,11 @@
+/*
+Problem: Binary Search
+
+Approach:
+Used two pointers (low and high).
+Repeatedly calculated the middle index and reduced the search space by half.
+
+*/
 class Solution {
     public int search(int[] nums, int target) {
         int low = 0;
