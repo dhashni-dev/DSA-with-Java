@@ -1,3 +1,10 @@
+/*
+Problem: Find the Difference of Two Arrays
+
+Approach:
+Stored unique elements of both arrays in HashSets.
+Added elements that were present in one set but not in the other.
+*/
 import java.util.*;
 
 class Solution {
