@@ -1,3 +1,11 @@
+/*
+Problem: Maximum Number of Words Found in Sentences
+
+Approach:
+Traversed each sentence and counted spaces.
+Number of words = spaces + 1.
+Tracked the maximum word count among all sentences.
+*/
 class Solution {
     public int mostWordsFound(String[] sentences) {
         int maxWords = 0;
